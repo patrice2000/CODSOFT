@@ -1,0 +1,177 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+.background {
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+  background-image: url(image.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+header {
+  width: 100%;
+  position: relative;
+}
+
+.header-top {
+  background-color: #e0f7fa;
+  padding: 10px 0;
+  color: #007bff;
+  text-align: right;
+  text-transform: capitalize;
+  animation: contact-info 10s linear infinite;
+}
+
+@keyframes contact-info {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.header-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info span {
+  margin-right: 20px;
+}
+
+.contact-info a {
+  color: #050505;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.header-bottom {
+  background-color: rgb(245, 72, 72);
+  color: white;
+  padding: 2em;
+}
+
+.header-bottom .contain {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-search {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 30px;
+  color: #007bff;
+  -webkit-text-stroke-color: 0.8px white;
+}
+
+input[type="text"] {
+  margin-left: 20px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #007bff;
+  text-decoration: none;
+  right: 75px;
+  font-size: 25px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.contain {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: right;
+}
+
+/* Testimonials Section Styles */
+#testimonials {
+  padding: 50px 0;
+  text-align: center;
+}
+
+blockquote {
+  margin: 20px auto;
+  padding: 20px;
+  border-left: 5px solid #007bff;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+/* Contact Section Styles */
+#contact {
+  padding: 50px 0;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+}

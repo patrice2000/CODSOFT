@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-top">
+        <div class="contain">
+          <div class="contact-info">
+            <span>
+              Welcome to my landing page !
+              <strong>Email :</strong>
+              <a href="mailto:info@example.com">patcompaore5@gmail.com</a></span
+            >
+            <span>
+              <strong>Phone :</strong>
+              <a href="tel:+123456789">+212 660526510</a></span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="header-bottom">
+        <div class="contain">
+          <div class="logo-search">
+            <h1 class="logo">LANDING PAGE</h1>
+            <input type="text" placeholder="Search..." />
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <div class="background">
+      <section id="testimonials">
+        <div class="contain">
+          <h2>What Our Clients Say</h2>
+          <blockquote>
+            <p>"This is the best service I've ever used!"</p>
+            <cite>- Happy Customer</cite>
+          </blockquote>
+          <blockquote>
+            <p>"Fantastic experience from start to finish."</p>
+            <cite>- Satisfied Client</cite>
+          </blockquote>
+        </div>
+      </section>
+
+      <div class="contain">
+        <h2>Contact Us</h2>
+
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+
+          <button type="submit" class="cta-button">Send Message</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div>
+        <p>&copy; 2024 My Landing Page. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
